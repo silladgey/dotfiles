@@ -33,7 +33,7 @@ NightTemperature=5500
 screenedgeEnabled=false
 
 [Tiling]
-padding=4
+padding=6
 
 [Tiling][147ed1ab-adcd-41db-bd21-6ab9c6e8f24d][714a2a22-7b74-4ecd-b43a-a1f480589892]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -45,7 +45,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][6632fbc7-a247-48d6-a6ca-6e3188b4ffce][714a2a22-7b74-4ecd-b43a-a1f480589892]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5},{"width":0.5}]}
 
 [Tiling][7c82a0cc-9040-4ddd-81fc-b0ea7ef4d463][714a2a22-7b74-4ecd-b43a-a1f480589892]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
