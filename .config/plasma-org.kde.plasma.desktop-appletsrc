@@ -56,6 +56,10 @@ icon=start-here
 immutability=1
 plugin=org.kde.plasma.icontasks
 
+[Containments][2][Applets][5][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][2][Applets][5][Configuration][General]
 launchers=applications:Alacritty.desktop,preferred://filemanager,preferred://browser
 
@@ -161,7 +165,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][33][Applets][38][Applets][42][Configuration]
-PreloadWeight=70
+PreloadWeight=75
 
 [Containments][33][Applets][38][Applets][42][Configuration][General]
 allDevices=true
@@ -204,7 +208,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][33][Applets][38][Applets][51][Configuration]
-PreloadWeight=80
+PreloadWeight=85
 
 [Containments][33][Applets][38][Applets][51][Configuration][General]
 migrated=true
@@ -236,7 +240,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][33][Applets][38][Applets][70][Configuration]
-PreloadWeight=57
+PreloadWeight=77
 
 [Containments][33][Applets][38][ConfigDialog]
 DialogHeight=540
