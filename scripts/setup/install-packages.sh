@@ -16,6 +16,7 @@ tools=(
   htop
   fastfetch
   git
+  perl-Image-ExifTool
   tmux
   zsh
 )
