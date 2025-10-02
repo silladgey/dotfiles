@@ -4,7 +4,8 @@ popupHeight=400
 popupWidth=560
 
 [PlasmaViews][Panel 2]
-floating=0
+floating=1
+floatingApplets=1
 panelLengthMode=1
 panelVisibility=2
 
