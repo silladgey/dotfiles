@@ -39,19 +39,6 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][2][Applets][3]
-immutability=1
-plugin=org.kde.plasma.kickoff
-
-[Containments][2][Applets][3][Configuration]
-PreloadWeight=100
-popupHeight=508
-popupWidth=647
-
-[Containments][2][Applets][3][Configuration][General]
-favoritesPortedToKAstats=true
-icon=start-here
-
 [Containments][2][Applets][5]
 immutability=1
 plugin=org.kde.plasma.icontasks
@@ -61,7 +48,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=applications:Alacritty.desktop,preferred://filemanager,preferred://browser
+launchers=applications:Alacritty.desktop,preferred://filemanager,preferred://browser,applications:code.desktop
 
 [Containments][2][Applets][72]
 immutability=1
@@ -74,6 +61,10 @@ length=8
 [Containments][2][Applets][73]
 immutability=1
 plugin=org.kde.plasma.panelspacer
+
+[Containments][2][Applets][73][Configuration][General]
+expanding=false
+length=8
 
 [Containments][2][Applets][80]
 immutability=1
@@ -129,7 +120,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][33][Applets][37][Configuration]
-PreloadWeight=80
+PreloadWeight=90
 popupHeight=450
 popupWidth=810
 
@@ -178,7 +169,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][33][Applets][38][Applets][42][Configuration]
-PreloadWeight=75
+PreloadWeight=90
 
 [Containments][33][Applets][38][Applets][42][Configuration][General]
 allDevices=true
@@ -199,6 +190,9 @@ plugin=org.kde.plasma.manage-inputmethod
 [Containments][33][Applets][38][Applets][46]
 immutability=1
 plugin=org.kde.plasma.notifications
+
+[Containments][33][Applets][38][Applets][46][Configuration]
+PreloadWeight=55
 
 [Containments][33][Applets][38][Applets][47]
 immutability=1
@@ -221,7 +215,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][33][Applets][38][Applets][51][Configuration]
-PreloadWeight=85
+PreloadWeight=100
 
 [Containments][33][Applets][38][Applets][51][Configuration][General]
 migrated=true
@@ -235,18 +229,21 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][33][Applets][38][Applets][53][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][33][Applets][38][Applets][54]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][33][Applets][38][Applets][54][Configuration]
-PreloadWeight=65
+PreloadWeight=64
 
 [Containments][33][Applets][38][Applets][55]
 immutability=1
 plugin=org.kde.plasma.battery
+
+[Containments][33][Applets][38][Applets][55][Configuration]
+PreloadWeight=34
 
 [Containments][33][Applets][38][Applets][70]
 immutability=1
