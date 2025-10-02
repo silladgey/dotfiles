@@ -15,8 +15,16 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][1][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][1][General]
 positions={"1920x1080":[]}
+
+[Containments][1][Wallpaper][org.kde.image][General]
+Image=/home/ricky/Pictures/Wallpapers/Singapore-Night.png
+SlidePaths=/usr/share/wallpapers/
 
 [Containments][2]
 activityId=
@@ -45,7 +53,7 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=applications:org.kde.discover.desktop,preferred://filemanager,preferred://browser
+launchers=applications:Alacritty.desktop,preferred://filemanager,preferred://browser
 
 [Containments][2][Applets][6]
 immutability=1
@@ -137,7 +145,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][33][Applets][38][Applets][42][Configuration]
-PreloadWeight=55
+PreloadWeight=65
 
 [Containments][33][Applets][38][Applets][42][Configuration][General]
 allDevices=true
