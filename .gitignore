@@ -1,0 +1,73 @@
+.aws/
+.cache/
+.ssh/
+.mozilla/
+.gnupg/
+.var/
+.netrc
+
+# .config/*
+# .local/*
+.local/share/Trash/
+
+.bash_history
+.bash_logout
+
+.gtkrc*
+
+notes/
+projects/
+scripts/
+
+# Personal directories
+Desktop/
+Documents/
+Downloads/
+Music/
+Pictures/
+Public/
+Templates/
+Videos/
+
+# Environment and config files
+**/*.cfg
+**/*.conf
+**/*.env
+**/*.env.*
+**/*.ini
+**/*.json
+**/*.yaml
+
+# Keys and certificates
+**/*.cer
+**/*.crt
+**/*.jks
+**/*.key
+**/*.keystore
+**/*.p12
+**/*.pfx
+**/*.pem
+
+# Kubernetes/OpenVPN
+**/*.kubeconfig
+**/*.ovpn
+
+# Databases and backups
+**/*.bak
+**/*.backup
+**/*.dat
+**/*.db
+**/*.sqlite
+
+# Logs
+**/*.log
+
+# Archives
+**/*.gz
+**/*.tar
+**/*.zip
+
+# Unignore certain configuration files
+!**/*.example
+!**/*.sample
+# !.config/akonadi/
