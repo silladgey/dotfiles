@@ -157,7 +157,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][33][Applets][38][Applets][42][Configuration]
-PreloadWeight=65
+PreloadWeight=70
 
 [Containments][33][Applets][38][Applets][42][Configuration][General]
 allDevices=true
@@ -232,7 +232,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][33][Applets][38][Applets][70][Configuration]
-PreloadWeight=52
+PreloadWeight=57
 
 [Containments][33][Applets][38][ConfigDialog]
 DialogHeight=540
