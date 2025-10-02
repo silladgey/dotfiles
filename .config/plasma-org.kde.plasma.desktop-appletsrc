@@ -20,6 +20,10 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][General]
+alignment=1
+arrangement=1
+iconSize=2
+locked=true
 positions={"1920x1080":[]}
 
 [Containments][1][Wallpaper][org.kde.image][General]
