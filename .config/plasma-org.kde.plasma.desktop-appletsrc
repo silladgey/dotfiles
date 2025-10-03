@@ -99,6 +99,14 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.appmenu
 
+[Containments][33][Applets][34][Configuration]
+popupHeight=400
+popupWidth=560
+
+[Containments][33][Applets][34][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][33][Applets][35]
 immutability=1
 plugin=org.kde.plasma.panelspacer
@@ -114,32 +122,6 @@ DialogWidth=720
 [Containments][33][Applets][36][Configuration][General]
 displayedText=Name
 showWindowOutlines=false
-
-[Containments][33][Applets][37]
-immutability=1
-plugin=org.kde.plasma.digitalclock
-
-[Containments][33][Applets][37][Configuration]
-PreloadWeight=90
-popupHeight=450
-popupWidth=810
-
-[Containments][33][Applets][37][Configuration][Appearance]
-autoFontAndSize=false
-boldText=true
-customDateFormat=ddd dd MMM\s
-dateDisplayFormat=BesideTime
-dateFormat=custom
-enabledCalendarPlugins=holidaysevents,pimevents
-firstDayOfWeek=1
-fontFamily=Noto Sans Mono SemiBold
-fontSize=12
-fontStyleName=Regular
-fontWeight=600
-
-[Containments][33][Applets][37][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
 
 [Containments][33][Applets][38]
 activityId=
@@ -232,7 +214,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][33][Applets][38][Applets][54][Configuration]
-PreloadWeight=64
+PreloadWeight=69
 
 [Containments][33][Applets][38][Applets][55]
 immutability=1
@@ -246,7 +228,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][33][Applets][38][Applets][70][Configuration]
-PreloadWeight=77
+PreloadWeight=53
 
 [Containments][33][Applets][38][ConfigDialog]
 DialogHeight=540
@@ -357,8 +339,33 @@ plugin=org.kde.plasma.panelspacer
 expanding=false
 length=8
 
+[Containments][33][Applets][81]
+immutability=1
+plugin=us.rbrent.digitalclock
+
+[Containments][33][Applets][81][Configuration]
+PreloadWeight=100
+popupHeight=450
+popupWidth=810
+
+[Containments][33][Applets][81][Configuration][Appearance]
+autoFontAndSize=false
+customDateFormat=ddd dd MMM\s
+dateDisplayFormat=BesideTime
+dateFormat=custom
+enabledCalendarPlugins=holidaysevents,pimevents
+firstDayOfWeek=1
+fontFamily=Noto Sans
+fontSize=12
+fontStyleName=Medium
+fontWeight=500
+
+[Containments][33][Applets][81][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][33][General]
-AppletOrder=36;34;35;59;71;63;38;62;37;61
+AppletOrder=36;34;35;59;71;63;38;62;81;61
 
 [Containments2Appletsts][73][Configuration][General]
 expanding=false
