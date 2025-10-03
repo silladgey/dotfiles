@@ -42,6 +42,9 @@ sudo dnf install -y "${packages[@]}"
 # Install GitHub CLI from gh-cli RPM repo
 sudo dnf install -y gh --repo gh-cli
 
+# Install flatpak packages
+flatpak install flathub -y com.getpostman.Postman
+
 # Setup PostgreSQL database
 # https://docs.fedoraproject.org/en-US/quick-docs/postgresql/
 sudo systemctl enable postgresql
